@@ -1,0 +1,90 @@
+body {
+	  background-color: white;
+	  margin: 10px 10px 10px 10px;
+	  }
+
+h1 {
+	color: black;
+	font-family: arial, sans-serif; font-weight: bold;
+	font-size: 20pt;
+	text-align: center;
+	}
+
+#body{
+	position: relative;
+	width:992px;
+	margin:0px auto;
+}	
+
+#MenuChicken {
+	float: left;
+	background: gray; 
+	height: 200px;
+	width: 326px;
+	border: 2px solid black;
+}
+
+#MenuBeef {
+	float: left;
+	background: gray;
+	height: 200px;
+	width: 327px;
+	border: 2px solid black;
+}
+
+#MenuSushi {
+	float: left;
+	background: gray;
+	height: 200px;
+	width: 326px;
+	border: 2px solid black;
+}
+			
+.Chicken {
+		  float: right;
+		  text-align: center;
+		  font-family: arial, sans-serif; font-weight: bold;
+		  font-size: 100%;
+		  width: 30%;
+		  border: 1px solid black;
+		  background: darkblue;
+		  padding-bottom:10px;
+		  padding-top:10px;
+	      }
+.Beef {
+		  float: right;
+		  text-align: center;
+		  font-family: arial, sans-serif; font-weight: bold;
+		  font-size: 100%;
+		  width: 30%;
+		  border: 2px solid black;
+		  background: orange;
+		  padding-bottom:10px;
+		  padding-top:10px;
+	      }
+.Sushi {
+		  float: right;
+		  text-align: center;
+		  font-family: arial, sans-serif; font-weight: bold;
+		  font-size: 100%;
+		  width: 30%;
+		  border: 2px solid black;
+		  background: green;
+		  padding-bottom:10px;
+		  padding-top:10px;
+	      }
+
+@media screen and (max-widht:900px){
+	#body{
+		width:100%;
+	}
+	#MenuChicken{
+		width:30%;
+	}
+	#MenuBeef{
+		width:30%;
+	}
+	#MenuSushi{
+		width:30%;
+	}
+}
