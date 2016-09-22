@@ -1,17 +1,16 @@
 body {
-	  background-color: white;
-	  margin: 10px 10px 10px 10px;
-	  }
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+}
 
 h1 {
 	color: black;
 	font-family: arial, sans-serif; font-weight: bold;
 	font-size: 20pt;
 	text-align: center;
-	}
+}
 
 #body{
-	position: relative;
 	width:992px;
 	margin:0px auto;
 }	
@@ -22,13 +21,14 @@ h1 {
 	height: 200px;
 	width: 326px;
 	border: 2px solid black;
+	word-wrap: break-word;
 }
 
 #MenuBeef {
 	float: left;
 	background: gray;
 	height: 200px;
-	width: 327px;
+	width: 326px;
 	border: 2px solid black;
 }
 
@@ -74,17 +74,17 @@ h1 {
 		  padding-top:10px;
 	      }
 
-@media screen and (max-widht:900px){
+@media screen and (max-width:991px){
 	#body{
 		width:100%;
 	}
 	#MenuChicken{
-		width:30%;
+		width:48%;
 	}
 	#MenuBeef{
-		width:30%;
+		width:49%;
 	}
 	#MenuSushi{
-		width:30%;
+		width:98%;
 	}
 }
